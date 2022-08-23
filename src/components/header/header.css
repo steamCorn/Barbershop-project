@@ -1,0 +1,29 @@
+.header{
+    background-color: rgb(35, 35, 35);
+    color: white;
+    display: flex;
+    justify-content: center;
+}
+.headerConteiner{
+    width: 100%;
+    max-width: 1024px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.headerTitel{
+    width: 400px;
+    font-size: 52px;
+    line-height: 0.9;
+    font-weight: 400;
+    text-transform: uppercase;
+}
+.bookingButton{
+    width: 180px;
+    margin: 30px;
+    border: 1px solid #e4b041;
+}
+.scrollButton{
+    width: 80px;
+    border: 1px solid #e4b041;
+}
