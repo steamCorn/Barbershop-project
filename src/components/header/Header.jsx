@@ -7,8 +7,11 @@ const Navbar = () => {
             <div className="headerConteiner">
                 <h1 className="headerTitel">Raise your level instanly</h1>
                 <button className="bookingButton">Book now</button>
-                <button className="scrollButton"> left arrow </button>
-                <button className="scrollButton"> right arrow </button>
+                <div className="scrollButtons">
+                    <button className="leftScroll"> left arrow </button>
+                    <button className="rightScroll"> right arrow </button>
+                </div>
+                
             </div>
         </div>
     )

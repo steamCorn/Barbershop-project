@@ -8,7 +8,6 @@ const Navbar = () => {
             <div className="navContainer">
                 <span className="logo">BarberLogo</span>
                 <div className="navItems">
-                    {/* <button className="navButton navActive">Home</button> */}
                     <Link to="/" className="navButton navActive">Home</Link>
                     <Link to="/prices" className="navButton">Servicies</Link>
                     <Link to="/booking" className="navButton">Book now</Link>

@@ -5,6 +5,7 @@
     justify-content: center;
 }
 .headerConteiner{
+    margin-top: 50px;
     width: 100%;
     max-width: 1024px;
     display: flex;
@@ -12,18 +13,28 @@
     justify-content: space-between;
 }
 .headerTitel{
-    width: 400px;
+    width: 420px;
     font-size: 52px;
     line-height: 0.9;
     font-weight: 400;
     text-transform: uppercase;
+    letter-spacing: 2px;
 }
 .bookingButton{
     width: 180px;
-    margin: 30px;
-    border: 1px solid #e4b041;
+    margin-right: 120px;
+    padding: 8px 10px;
+    font-size: 18px;
+    font-weight: 400;
+    text-transform: uppercase;
+    border: 3px solid #e4b041;
 }
-.scrollButton{
+/* .scrollButton{
+    width: 80px;
+    border: 1px solid #e4b041;
+} */
+.leftScroll, 
+.rightScroll {
     width: 80px;
     border: 1px solid #e4b041;
 }
