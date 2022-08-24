@@ -1,15 +1,21 @@
 .header{
     background-color: rgb(35, 35, 35);
-    color: white;
     display: flex;
     justify-content: center;
 }
-.headerConteiner{
-    margin-top: 50px;
+.headerContainer{
+    margin-top: 60px;
     width: 100%;
     max-width: 1024px;
     display: flex;
-    align-items: center;
+    flex-direction: column;
+    /* align-items: center;
+    justify-content: space-between; */
+}
+.headerBar{
+    width: 100%;
+    display: flex;
+    align-items: flex-start;
     justify-content: space-between;
 }
 .headerTitel{
@@ -28,13 +34,17 @@
     font-weight: 400;
     text-transform: uppercase;
     border: 3px solid #e4b041;
+    background-color: transparent;
 }
-/* .scrollButton{
-    width: 80px;
-    border: 1px solid #e4b041;
-} */
 .leftScroll, 
 .rightScroll {
-    width: 80px;
-    border: 1px solid #e4b041;
+    width: 95px;
+    padding: 36px 0;
+    background-color: transparent;
+
+    cursor: pointer;
+}
+.interactiveContainer{
+    background-color: rgb(35, 35, 35);
+    width: 100%;
 }

@@ -1,0 +1,14 @@
+.sliderBlock{
+    display: flex;
+    gap: 2rem;
+}
+.sliderItem{
+    height: 400px;
+    width: 500px;
+    background-color: #dfd6c1;
+    border: 2px solid #e4b041;
+}
+.sliderItem img,
+.sliderItem video {
+    width: 100%;
+}
