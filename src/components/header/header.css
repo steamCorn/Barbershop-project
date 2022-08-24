@@ -44,7 +44,29 @@
 
     cursor: pointer;
 }
-.interactiveContainer{
+.sliderContainer{
     background-color: rgb(35, 35, 35);
-    width: 100%;
+    
+    height: 500px;
+    /* width: inherit; */
+}
+
+
+
+/* ======= Slider draft ======== */
+.item{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    user-select: none;
+}
+
+.item-1{
+    background-color: aquamarine;
+}
+.item-2{
+    background-color: rgb(255, 234, 127);
+}
+.item-3{
+    background-color: rgb(255, 127, 176);
 }
