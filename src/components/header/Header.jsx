@@ -9,10 +9,10 @@ import img3 from "../../assets/img3.jpg";
 import img4 from "../../assets/img4.jpg";
 import img5 from "../../assets/img5.jpg";
 
-const SLIDER_WINDOW_WIDTH = 750;
+const SLIDER_WINDOW_WIDTH = 763; // 1024
+const MAX_SLIDER_OFFSET = 2630; 
 
 const Header = () => {
-    // const SLIDER_WINDOW_WIDTH = 850;
     const [offset, setOffset] = useState(0);
 
     const handleLeftArrowClick = () => {
@@ -25,7 +25,7 @@ const Header = () => {
     const handleRightArrowClick = () => {
         setOffset((currentOffset) => {
             const newOffset = currentOffset - SLIDER_WINDOW_WIDTH;
-            const maxOffset = -(SLIDER_WINDOW_WIDTH * 5); // it is NOT correct for my images
+            const maxOffset = -(MAX_SLIDER_OFFSET); // it is NOT correct for my images
             console.log(newOffset, maxOffset);
             return Math.max(newOffset, maxOffset);
         })
@@ -45,8 +45,8 @@ const Header = () => {
 
                 <div className="sliderContainer">
                     <Carousel offset={offset}>
-                        {/* <div className="sliderItem">
-                            <video src={video} autoPlay loop muted/>
+                        <div className="sliderItem">
+                            <video src={video} autoPlay={false} loop muted/>
                         </div>
                         <div className="sliderItem">
                             <img src={img1} />
@@ -62,12 +62,7 @@ const Header = () => {
                         </div>
                         <div className="sliderItem">
                             <img src={img5} />
-                        </div> */}
-
-
-                        <div className="item item-1">Item 1</div>
-                        <div className="item item-2">Item 2</div>
-                        <div className="item item-3">Item 3</div>
+                        </div>
                     </Carousel>
                 </div>
             </div>
