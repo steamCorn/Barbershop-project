@@ -2,7 +2,7 @@ import React from "react";
 import "./home.css";
 import Navbar from '../../components/navbar/Navbar';
 import Header from '../../components/header/Header';
-import Prices from "../servise/Prices";
+import PricesComponent from "../../components/price/PriceComponent";
 
 const Home = () => {
     return (
@@ -11,8 +11,8 @@ const Home = () => {
                 <Navbar />
                 <Header />
             </section>
-            <section id="barber-price">
-                <Prices />
+            <section className="barber-price">
+                <PricesComponent />
             </section>
         </>
         

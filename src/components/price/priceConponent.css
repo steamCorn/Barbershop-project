@@ -1,0 +1,6 @@
+.priceComponentWrap{
+    padding-top: 60px;
+    width: 100%;
+    max-width: 1024px;
+    background-color: var(--main-light-bg-c);
+}
