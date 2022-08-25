@@ -18,6 +18,7 @@
     box-sizing: border-box;
 }
 
-/* :root{
-
-} */
+:root{
+    --main-light-bg-c: #282828;
+    --main-darck-bg-c: #181818;
+}

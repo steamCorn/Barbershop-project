@@ -25,7 +25,7 @@ const Header = () => {
     const handleRightArrowClick = () => {
         setOffset((currentOffset) => {
             const newOffset = currentOffset - SLIDER_WINDOW_WIDTH;
-            const maxOffset = -(MAX_SLIDER_OFFSET); // it is NOT correct for my images
+            const maxOffset = -(MAX_SLIDER_OFFSET); 
             console.log(newOffset, maxOffset);
             return Math.max(newOffset, maxOffset);
         })

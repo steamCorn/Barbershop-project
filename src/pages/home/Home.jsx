@@ -1,15 +1,21 @@
 import React from "react";
-import { Link } from "react-router-dom";
 import "./home.css";
 import Navbar from '../../components/navbar/Navbar';
 import Header from '../../components/header/Header';
+import Prices from "../servise/Prices";
 
 const Home = () => {
     return (
         <>
-            <Navbar />
-            <Header />
+            <section id="top-barbers">
+                <Navbar />
+                <Header />
+            </section>
+            <section id="barber-price">
+                <Prices />
+            </section>
         </>
+        
     )
 }
 
