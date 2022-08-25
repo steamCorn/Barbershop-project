@@ -1,9 +1,16 @@
 import React from "react";
-import "./priceConponent.css";
+import "./price-list.css";
 
-const PricesComponent = () => {
+const PriceListComponent = () => {
     return (
-        <div className="priceComponentWrap">
+        <div className="price-list-wraper">
+
+
+
+
+
+
+
             <ul>
                 <li>Maecenas scelerisque imperdiet fringilla.</li>
                 <li>In at mattis magna</li>
@@ -18,4 +25,4 @@ const PricesComponent = () => {
     )
 }
 
-export default PricesComponent;
+export default PriceListComponent;
