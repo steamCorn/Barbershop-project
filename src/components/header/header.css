@@ -2,6 +2,25 @@
     background-color: rgb(35, 35, 35);
     display: flex;
     justify-content: center;
+    background-color: var(--main-darck-bg-c);
+}
+.header::before{
+    content: '';
+    width: 27rem;
+    height: 33.5rem;
+    background-color: var(--main-light-bg-c);
+    position: absolute;
+    left: -0.5em;
+    bottom: 13rem;
+}
+.header::after{
+    content: '';
+    width: 30rem;
+    height: 35rem;
+    background-color: var(--main-light-bg-c);
+    position: absolute;
+    left: 65em;
+    bottom: 1rem;
 }
 .headerContainer{
     margin-top: 60px;
@@ -9,14 +28,16 @@
     max-width: 1024px;
     display: flex;
     flex-direction: column;
-    /* align-items: center;
-    justify-content: space-between; */
+    z-index: 997;
 }
 .headerBar{
     width: 100%;
     display: flex;
     align-items: flex-start;
     justify-content: space-between;
+    position: relative;
+    bottom: -0.8rem;
+    z-index: 998;
 }
 .headerTitel{
     width: 420px;
@@ -25,6 +46,9 @@
     font-weight: 400;
     text-transform: uppercase;
     letter-spacing: 2px;
+}
+.object-with-pseudo-elem{
+    position: relative;
 }
 .bookingButton{
     width: 180px;
@@ -36,6 +60,16 @@
     border: 3px solid #e4b041;
     background-color: transparent;
 }
+.bookingButton::before{
+    content: '';
+    width: 0.2rem;
+    height: 8rem;
+    background-color: #e4b041;
+    position: absolute;
+    left: -2em;
+    bottom: -2.4rem;
+    transform: rotate(90deg);
+}
 .leftScroll, 
 .rightScroll {
     width: 95px;
@@ -46,7 +80,7 @@
 }
 .sliderContainer{
     margin-bottom: 80px;
-    background-color: rgb(35, 35, 35);
+    background-color: var(--main-darck-bg-c);
     
     height: 400px;
 }

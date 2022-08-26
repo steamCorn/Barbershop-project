@@ -17,7 +17,7 @@ const Navbar = () => {
                         />
                     </Link>
                 </span>
-                <div className="navItems">
+                <div className="navItems object-with-pseudo-elem">
                     <Link to="/" className="navButton navActive">Home</Link>
                     <Link to="/prices" className="navButton">Prices</Link>
                     <Link to="/booking" className="navButton">Book now</Link>

@@ -4,3 +4,37 @@
     max-width: 1024px;
     background-color: var(--main-light-bg-c);
 }
+.top-barber-price{
+    display: flex;
+    justify-content: space-around;
+    padding: 20px 0;
+    background-color: black;
+}
+.block-title{
+    font-size: 38px;
+    font-weight: 400;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+}
+.select{
+    display: flex;
+    word-wrap: normal;
+    align-items: center;
+    justify-content: space-between;
+    text-align: right;
+    font-size: 18px;
+    line-height: 20px;
+}
+.select span {
+    color: chocolate;
+    margin-right: 30px;
+}
+.select-style {
+    cursor: pointer;
+    background: none;
+    font-size: 18px;
+}
+.select-style option{
+    color: chocolate;
+    background-color: black;
+}

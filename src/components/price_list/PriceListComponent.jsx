@@ -3,7 +3,30 @@ import "./price-list.css";
 
 const PriceListComponent = () => {
     return (
-        <div className="price-list-wraper">
+        <>
+            <div className="price-list-wraper">
+                <div className="top-barber-price">
+                    <h1 className="block-title">Our services</h1>
+                    <div className="select">
+                        <span >City</span>
+                        <select className="select-style">
+                            <option selected value="Amsterdam">Amsterdam</option>
+                            <option value="Rotterdam">Rotterdam</option>
+                            <option value="Almere">Almere</option>
+                        </select>
+                    </div>
+                </div>
+                <div className="barber-price-name price-slider">
+                    <div>
+                        <button>Haircut</button>
+                    </div>
+                    <div>
+                        <button>Shave</button>
+                    </div>
+                    <div>
+                        <button>Care</button>
+                    </div>
+                </div>
 
 
 
@@ -21,7 +44,9 @@ const PriceListComponent = () => {
                 <li>Fusce finibus dolor ac iaculis consequat.</li>
                 <li>Maecenas scelerisque imperdiet fringilla.</li>
             </ul>
-        </div>
+            </div>
+        </>
+        
     )
 }
 

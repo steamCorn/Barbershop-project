@@ -32,11 +32,13 @@ const Header = () => {
     }
 
     return (
-        <div className="header">
+        <div className="header object-with-pseudo-elem">
             <div className="headerContainer">
                 <div className="headerBar">
                     <h1 className="headerTitel">Raise your level instanly</h1>
-                    <button className="bookingButton">Book now</button>
+                    <div className="object-with-pseudo-elem">
+                        <button className="bookingButton">Book now</button>
+                    </div>
                     <div className="scrollButtons">
                         <button className="leftScroll" onClick={handleLeftArrowClick}> left arrow </button>
                         <button className="rightScroll" onClick={handleRightArrowClick}> right arrow </button>
@@ -49,19 +51,19 @@ const Header = () => {
                             <video src={video} autoPlay={false} loop muted/>
                         </div>
                         <div className="sliderItem">
-                            <img src={img1} />
+                            <img src={img1} alt="Barber"/>
                         </div>
                         <div className="sliderItem">
-                            <img src={img2} />
+                            <img src={img2} alt="Barber"/>
                         </div>
                         <div className="sliderItem">
-                            <img src={img3} />
+                            <img src={img3} alt="Barber"/>
                         </div>
                         <div className="sliderItem">
-                            <img src={img4} />
+                            <img src={img4} alt="Barber"/>
                         </div>
                         <div className="sliderItem">
-                            <img src={img5} />
+                            <img src={img5} alt="Barber"/>
                         </div>
                     </Carousel>
                 </div>

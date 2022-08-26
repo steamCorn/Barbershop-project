@@ -1,7 +1,7 @@
 .navbar{
     height: 100px;
     padding-top: 15px;
-    background-color: black;
+    background-color: var(--main-darck-bg-c);
     display: flex;
     justify-content: center;
 }
@@ -13,10 +13,21 @@
     display: flex;
     align-items: center;
     justify-content: space-between;
+
+    z-index: 999;
 }
 .navItems{
     display: flex;
     gap: 30px;
+}
+.navItems::before{
+    content: '';
+    width: 130%;
+    height: 2px;
+    background-color: var(--main-light-bg-c);
+    position: absolute;
+    left: -8em;
+    bottom: -1.8rem;
 }
 .logo{
     height: 100%;
@@ -38,5 +49,5 @@
     text-transform: uppercase;
 }
 .navButton.navActive{
-    border-bottom: 1px solid #e4b041;
+    border-bottom: 1px solid var(--main-accent-c);
 }

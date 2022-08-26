@@ -1,5 +1,4 @@
 import React from "react";
-import { Link } from "react-router-dom";
 import Navbar from "../../components/navbar/Navbar";
 import PriceListComponent from "../../components/price_list/PriceListComponent";
 
