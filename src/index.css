@@ -20,6 +20,10 @@
 
 :root{
     --main-light-bg-c: #282828;
-    --main-darck-bg-c: #181818;
+    --main-dark-bg-c: #181818;
     --main-accent-c: #efa336;
+}
+
+body{
+    background-color: var(--main-dark-bg-c);
 }

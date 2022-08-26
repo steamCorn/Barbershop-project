@@ -48,7 +48,7 @@ const Header = () => {
                 <div className="sliderContainer">
                     <Carousel offset={offset}>
                         <div className="sliderItem">
-                            <video src={video} autoPlay={false} loop muted/>
+                            <video src={video} autoPlay={true} loop muted/>
                         </div>
                         <div className="sliderItem">
                             <img src={img1} alt="Barber"/>

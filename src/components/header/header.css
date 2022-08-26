@@ -2,7 +2,7 @@
     background-color: rgb(35, 35, 35);
     display: flex;
     justify-content: center;
-    background-color: var(--main-darck-bg-c);
+    background-color: var(--main-dark-bg-c);
 }
 .header::before{
     content: '';
@@ -80,7 +80,7 @@
 }
 .sliderContainer{
     margin-bottom: 80px;
-    background-color: var(--main-darck-bg-c);
+    background-color: var(--main-dark-bg-c);
     
     height: 400px;
 }
