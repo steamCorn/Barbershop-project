@@ -10,7 +10,7 @@ const PriceListComponent = () => {
                     <div className="select">
                         <span >City</span>
                         <select className="select-style">
-                            <option selected value="Amsterdam">Amsterdam</option>
+                            <option defaultValue value="Amsterdam">Amsterdam</option>
                             <option value="Rotterdam">Rotterdam</option>
                             <option value="Almere">Almere</option>
                         </select>

@@ -5,7 +5,7 @@ export const Carousel = ({ offset, children }) => {
     const [pages, setPages] = useState([]);
 
     useEffect(() => {
-        console.log(offset);
+        // console.log(offset);
         setPages(
             Children.map(children, (child) => {
                 return cloneElement(child, {
