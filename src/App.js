@@ -8,10 +8,10 @@ function App() {
   return (
     <div>
       <Routes>
-        <Route path="/" element={<Home />}/>
-        <Route path="/prices" element={<Prices />}/>
-        <Route path="/booking" element={<Booking />}/>
-        <Route path="/team" element={<Team />}/>
+        <Route path="/" element={<Home />} />
+        <Route path="/prices" element={<Prices />} />
+        <Route path="/booking" element={<Booking />} />
+        <Route path="/team" element={<Team />} />
       </Routes>
     </div>
   );
