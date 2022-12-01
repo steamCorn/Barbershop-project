@@ -1,7 +1,7 @@
 .navbar {
   height: 100px;
   padding-top: 15px;
-  background-color: var(--main-dark-bg-c);
+  background-color: var(--main-dark-background-2-color);
   display: flex;
   justify-content: center;
 }
@@ -24,10 +24,10 @@
   content: "";
   width: 130%;
   height: 2px;
-  background-color: var(--main-light-bg-c);
+  background-color: var(--main-dark-background-1-color);
   position: absolute;
-  left: -8em;
-  bottom: -1.8rem;
+  left: -128px;
+  bottom: -30px;
 }
 .logo {
   height: 100%;
@@ -49,5 +49,5 @@
   text-transform: uppercase;
 }
 .navButton.navActive {
-  border-bottom: 1px solid var(--main-accent-c);
+  border-bottom: 1px solid var(--primary-element-color);
 }

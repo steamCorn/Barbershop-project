@@ -2,28 +2,25 @@
   background-color: rgb(35, 35, 35);
   display: flex;
   justify-content: center;
-  background-color: var(--main-dark-bg-c);
+  background-color: var(--main-dark-background-2-color);
 }
 .header::before {
   content: "";
-  width: 27rem;
-  height: 33.5rem;
-  background-color: var(--main-light-bg-c);
+  width: 530px;
+  height: 535px;
+  background-color: var(--main-dark-background-1-color);
   position: absolute;
-  left: -0.5em;
-  bottom: 13rem;
+  left: -8px;
+  bottom: 208px;
 }
 .header::after {
   content: "";
-  width: 14rem;
-  height: 36rem;
-  background-color: var(--main-light-bg-c);
-  /* position: absolute; */
-  /* left: 65em; */
-  /* bottom: 1rem; */
+  width: 225px;
+  height: 575px;
+  background-color: var(--main-dark-background-1-color);
   position: relative;
-  left: 33em;
-  bottom: -4rem;
+  left: 528px;
+  bottom: -65px;
 }
 .headerContainer {
   margin-top: 60px;
@@ -40,7 +37,7 @@
   align-items: flex-start;
   justify-content: space-between;
   position: relative;
-  bottom: -0.8rem;
+  bottom: -13px;
   z-index: 20;
 }
 .headerTitle {
@@ -49,7 +46,6 @@
   line-height: 0.9;
   font-weight: 400;
   text-transform: uppercase;
-  letter-spacing: 2px;
 }
 .object-with-pseudo-elem {
   position: relative;
@@ -61,7 +57,7 @@
   font-size: 18px;
   font-weight: 400;
   text-transform: uppercase;
-  border: 3px solid var(--main-accent-c);
+  border: 2px solid var(--primary-element-color);
   background-color: transparent;
 }
 .bookingButton:hover {
@@ -69,12 +65,12 @@
 }
 .bookingButton::before {
   content: "";
-  width: 0.2rem;
-  height: 8rem;
-  background-color: var(--main-accent-c);
+  width: 3px;
+  height: 125px;
+  background-color: var(--primary-element-color);
   position: absolute;
-  left: -2em;
-  bottom: -2.4rem;
+  left: -32px;
+  bottom: -38px;
   transform: rotate(90deg);
 }
 .leftScroll,
@@ -87,7 +83,7 @@
 }
 .sliderContainer {
   margin-bottom: 80px;
-  background-color: var(--main-dark-bg-c);
+  background-color: var(--main-dark-background-2-color);
 
   height: 400px;
 }
@@ -96,14 +92,14 @@
   position: absolute;
   z-index: 30;
   padding: 22px;
-  left: 30em;
-  bottom: 3.6rem;
+  left: 480px;
+  bottom: 57px;
 }
 .play-bt-style {
   background-color: transparent;
-  color: var(--text-light-c);
+  color: var(--text-color-white);
   border-radius: 50%;
-  border: 1px solid var(--text-light-c);
+  border: 1px solid var(--text-color-white);
 }
 .play-bt-style:hover {
   cursor: pointer;
